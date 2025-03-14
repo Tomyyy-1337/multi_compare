@@ -1,13 +1,13 @@
 //! # Multi-Comparison
-//! 
+//!
 //! This crate provides a macro to compare multiple values in a single expression without
 //! the need of the `&&` operator and without duplicating the values.
-//! 
+//!
 //! ## Example
-//! 
+//!
 //! ```rust
 //! use multi_compare::c;
-//! 
+//!
 //! fn main (){
 //!     let mut a = 5;
 //!     let mut b = 10;

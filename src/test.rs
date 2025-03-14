@@ -21,11 +21,11 @@ mod tests {
         let a = 5;
         let b = 10;
         let c = 20;
-        
+
         assert!(c!(l < a < b <= c <= 20));
         assert!(c!(20 >= c >= b > a > 1));
     }
-    
+
     #[test]
     fn test3() {
         assert!(c!(1 < 2));

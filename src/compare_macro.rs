@@ -1,5 +1,15 @@
 /// This macro allows you to compare multiple values without the && operator avoiding
 /// duplication and improving readability.
+/// 
+/// ## Example
+///
+/// ```rust
+/// use multi_compare::c;
+///
+/// fn main (){
+///     assert!(c!(1 < 2 < 3));    
+/// }
+/// ```
 #[macro_export]
 macro_rules! c{
     ( $a:tt $op:tt $b:tt) => {
