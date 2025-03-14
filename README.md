@@ -1,4 +1,4 @@
-# Multi-Comparison
+# Multi-Compare
  
 This crate provides a macro to compare multiple values in a single expression without
 the need for the `&&` operator and without duplicating values.
