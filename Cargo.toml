@@ -5,7 +5,9 @@ edition = "2024"
 authors = ["Tom Paßberg"]
 license = "MIT"
 description = "Macro for comparing multiple values in a concise way. (a < b < c)"
-
-
+repository = "https://github.com/Tomyyy-1337/multi_compare"
+keywords = ["macro"]
+categories = ["mathematics"]
+readme = "README.md"
 
 [dependencies]
