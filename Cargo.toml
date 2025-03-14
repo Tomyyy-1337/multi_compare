@@ -1,0 +1,11 @@
+[package]
+name = "multi_compare"
+version = "0.1.0"
+edition = "2024"
+authors = ["Tom Paßberg"]
+license = "MIT"
+description = "Macro for comparing multiple values in a concise way. (a < b < c)"
+
+
+
+[dependencies]
